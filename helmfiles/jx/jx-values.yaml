@@ -30,7 +30,6 @@ jxRequirements:
   environments:
   - ingress:
       domain: ""
-      externalDNS: false
       namespaceSubDomain: ""
       tls:
         email: ""
@@ -39,7 +38,6 @@ jxRequirements:
     key: dev
   - ingress:
       domain: ""
-      externalDNS: false
       namespaceSubDomain: ""
       tls:
         email: ""
@@ -48,7 +46,6 @@ jxRequirements:
     key: staging
   - ingress:
       domain: ""
-      externalDNS: false
       namespaceSubDomain: ""
       tls:
         email: ""
@@ -57,7 +54,6 @@ jxRequirements:
     key: production
   ingress:
     domain: apps-crc.testing
-    externalDNS: false
     kind: ingress
     namespaceSubDomain: -jx.
     tls:
